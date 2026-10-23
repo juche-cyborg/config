@@ -1,0 +1,19 @@
+{
+  imports = [
+    ./i18n.nix
+    ./keyboard.nix
+    ./boot/default.nix
+    ./maintenance.nix
+    ./power.nix
+    ./swap.nix
+    ./networking.nix
+    ./sound.nix
+    ./firewall.nix
+    ./bash.nix
+    ./ssh.nix
+    ./printing.nix
+    ./tty.nix
+    ./experimental.nix
+    ./malware.nix
+  ];
+}
