@@ -105,6 +105,12 @@
       name = "Dictionary";
     };
 
+    "org/gnome/settings-daemon/plugins/power" = {
+      # powerbutton prompts to shutdown
+      # works well on laptops with powerbutton integrated into keyboard
+      power-button-action = "nothing";
+    };
+
     "org/gnome/shell" = {
       enabled-extensions = [
         "appindicatorsupport@rgcjonas.gmail.com"

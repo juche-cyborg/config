@@ -5,6 +5,7 @@
       type = lib.types.bool;
       default = true;
       description = "configures distrobox";
+      example = "imvegan.distrobox = false;";
     };
   };
 
