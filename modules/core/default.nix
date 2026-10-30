@@ -15,5 +15,6 @@
     ./tty.nix
     ./experimental.nix
     ./malware.nix
+    ./sudo.nix
   ];
 }
