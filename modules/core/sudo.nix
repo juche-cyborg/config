@@ -1,4 +1,5 @@
 # everything copied from the wiki. I don't know how the last bit works or what it's for.
+{pkgs, ...}:
 {
   security.sudo = {
     enable = true;

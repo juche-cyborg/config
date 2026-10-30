@@ -15,7 +15,7 @@
     };
     environment.variables = {
       EDITOR = "vim";
-      VISUAL = ""; ##no idea what this is for
+      #VISUAL = ""; ##no idea what this is for
     };
   };
 }

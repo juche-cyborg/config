@@ -1,13 +1,13 @@
 { pkgs, ... }:
 {
   fonts.packages = with pkgs; [
-    noto-fonts
-    noto-fonts-cjk-sans
+    babelstone-han
+    dina-font
     fira-code
     fira-code-symbols
-    dina-font
-    babelstone-han
     nerd-fonts.jetbrains-mono
     nerd-fonts.symbols-only
+    noto-fonts
+    noto-fonts-cjk-sans
   ];
 }

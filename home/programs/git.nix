@@ -9,6 +9,7 @@
         };
         init.defaultBranch = "main";
         safe.directory = "/etc/nixos";
+        core.editor = "vim";
       };
     };
   };

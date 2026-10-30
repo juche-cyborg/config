@@ -10,18 +10,18 @@
 
   config = lib.mkIf config.imvegan.utils {
     environment.systemPackages = with pkgs; [
-      file
-      fastfetch
-      git
-      yafetch
-      python314
-      uv
-      nix-ld
       android-tools
-      usbutils
+      fastfetch
+      file
+      git
+      nix-ld
+      python314
+      tectonic # LaTeX
       tldr
-      vivify
-      tectonic
+      usbutils
+      uv # python packages
+      vivify # markdown
+      yafetch
     ];
   };
 }
