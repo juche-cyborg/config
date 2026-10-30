@@ -42,12 +42,12 @@
             "type": "de"
         },
         {
-            "key": "║ {#31} term    {#keys}║",
-            "type": "terminal"
+            "key": "║ {#31} pkgs    {#keys}║",
+            "type": "packages"
         },
         {
-            "key": "║ {#32} shell   {#keys}║",
-            "type": "shell"
+            "key": "║ {#32} host   {#keys}║",
+            "type": "host"
         },
         {
             "key": "║ {#33}󰍛 cpu     {#keys}║",
@@ -62,11 +62,6 @@
         {
             "key": "║ {#35} memory  {#keys}║",
             "type": "memory"
-        },
-        {
-            "key": "║ {#36}󰩟 network {#keys}║",
-            "type": "localip",
-            "format": "{ipv4} ({ifname})"
         },
         {
             "key": "╠═══════════╣",
@@ -84,6 +79,7 @@
     ]
 }
 
+// modified from original
 /*
 MIT License
 
